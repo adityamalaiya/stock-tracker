@@ -1,8 +1,8 @@
-import yfinance as yf
-import smtplib
-from email.mime.text import MIMEText
+# import yfinance as yf
+# import smtplib
+# from email.mime.text import MIMEText
 import pandas as pd
-import datetime
+# import datetime
 
 # Load tracked stocks
 stocks = pd.read_csv("stocks.csv")  # Symbol, Target, Email
