@@ -39,5 +39,6 @@ def check_prices():
     summary = "\n".join([f"{s} – {yf.Ticker(s).history(period='1d')['Close'].iloc[-1]:.2f}" for s in stocks["Symbol"]])
     send_email("Daily Stock Summary", summary, "aditya@example.com")
 
-check_prices()
+# check_prices()
+print('I am here')
 
